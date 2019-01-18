@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="pt-br">
+    <meta charset="UTF-8">
+    <title>Carrousel de Testes</title>
+
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="mdl-tabs mdl-js-tabs">
+
+        <div class="mdl-tabs__tab-bar">
+
+            <div id="demo" class="carousel slide carousel-space">
+
+                <div class="container carousel-inner no-padding">
+
+                    <div class="carousel-item active">
+
+                        <a href="#tab1" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 1</div>
+                        </a>
+                        <a href="#tab2" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 2</div>
+                        </a>
+                        <a href="#tab3" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 3</div>
+                        </a>
+                        <a href="#tab4" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 4</div>
+                        </a>
+                        <a href="#tab5" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 5</div>
+                        </a>
+                        <a href="#tab6" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 6</div>
+                        </a>
+                        <a href="#tab7" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 7</div>
+                        </a>
+                        <a href="#tab8" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 8</div>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#tab9" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 9</div>
+                        </a>
+                        <a href="#tab10" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 10</div>
+                        </a>
+                        <a href="#tab11" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 11</div>
+                        </a>
+                        <a href="#tab12" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 12</div>
+                        </a>
+                        <a href="#tab13" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 13</div>
+                        </a>
+                        <a href="#tab14" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 14</div>
+                        </a>
+                        <a href="#tab15" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 15</div>
+                        </a>
+                        <a href="#tab16" class="mdl-tabs__tab">
+                            <img class="testeimg" src="teste.png" />
+                            <div class="name-tab">FORM 16</div>
+                        </a>
+
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="mdl-tabs__panel" id="tab1">
+            <form>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label ">
+                    <label for="input_text" class="mdl-textfield__label">Primeiro nome (teste)</label>
+                    <input type="text" class="mdl-textfield__input" id="input_text" />
+                </div>
+
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <label for="input_email" class="mdl-textfield__label">Campo E-mail (teste)</label>
+                    <input type="email" class="mdl-textfield__input" id="input_email" />
+                </div>
+
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <label for="input_password" class="mdl-textfield__label">Campo Senha (teste)</label>
+                    <input type="password" pattern="[0-9]*" class="mdl-textfield__input" id="input_password" />
+                    <span class="mdl-textfield__error">Erro Validação</span>
+                </div>
+
+                <label for="checkbox-1" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
+                     <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked />
+                      <span class="mdl-checkbox__label">Checkbox (teste)</span>
+                 </label>
+                <label for="option-1" class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
+                      <input type="radio" class="mdl-radio__button" id="option-1" name="options" value="1" checked/>
+                        <span class="mdl-radio__label">Opção 1</span>
+                 </label>
+                <label for="option-2" class="mdl-radio mdl-js-radio mdl-js-ripple-effect">
+                      <input type="radio" class="mdl-radio__button" id="option-2" name="options" value="2" />
+        <span class="mdl-radio__label">Opção 2</span>
+         </label>
+            </form>
+        </div>
+        <div class="mdl-tabs__panel" id="tab2">
+            <p>Segundo form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab3">
+            <p>Terceiro form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab4">
+            <p>Quarto form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab5">
+            <p>Quinto form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab6">
+            <p>Sexto form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab7">
+            <p>Setimo form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab8">
+            <p>Oitavo form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab9">
+            <p>Nono form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab10">
+            <p>Decimo form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab11">
+            <p>Decimo Primeiro form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab12">
+            <p>Decimo Segundo form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab13">
+            <p>Decimo Terceiro form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab14">
+            <p>Decimo Quarto form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab15">
+            <p>Decimo Quinto form.</p>
+        </div>
+        <div class="mdl-tabs__panel" id="tab16">
+            <p>Decimo Sexto form.</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+
+</body>
+</html>
